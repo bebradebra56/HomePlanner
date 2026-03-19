@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "403966645527",
+    "project_id": "homeplanner-e3838",
+    "storage_bucket": "homeplanner-e3838.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403966645527:android:9c9639ffcc5089b3b2d352",
+        "android_client_info": {
+          "package_name": "com.homeplane.plmeas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhel_LpWJP6BSceSvEgi6Qddcc9GR2azs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

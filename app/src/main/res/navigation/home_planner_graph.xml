@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_planner_graph"
+    app:startDestination="@id/homePlannerLoadFragment">
+
+    <fragment
+        android:id="@+id/homePlannerLoadFragment"
+        android:name="com.homeplane.plmeas.bfg.presentation.ui.load.HomePlannerLoadFragment"
+        android:label="HomePlannerLoadFragment" >
+        <action
+            android:id="@+id/action_homePlannerLoadFragment_to_homePlannerV"
+            app:destination="@id/homePlannerV"
+            app:popUpTo="@id/home_planner_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePlannerV"
+        android:name="com.homeplane.plmeas.bfg.presentation.ui.view.HomePlannerV"
+        android:label="HomePlannerV" />
+</navigation>
