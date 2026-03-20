@@ -81,12 +81,7 @@ class HomePlannerVi(
             override fun onPageFinished(view: WebView?, url: String?) {
                 CookieManager.getInstance().flush()
 
-//                HomePlannerApplication.homePlannerInputMode = WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN
-//                Log.d(HomePlannerApplication.HOME_PLANNER_MAIN_TAG, "onPageFinished : ${HomePlannerApplication.homePlannerInputMode}")
-//                homePlannerWindow.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
-//                homePlannerEnableStableInputScroll()
-
-                if (url?.contains("ninecasino") == true || url?.contains("winairlines") == true) {
+                if (url?.contains("https://test-web.syndi-test.net") != true) {
                     HomePlannerApplication.homePlannerInputMode = WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN
                     Log.d(HomePlannerApplication.HOME_PLANNER_MAIN_TAG, "onPageFinished : ${HomePlannerApplication.homePlannerInputMode}")
                     homePlannerWindow.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
